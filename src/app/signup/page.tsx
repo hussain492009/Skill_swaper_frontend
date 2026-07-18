@@ -84,8 +84,8 @@ export default function SignupPage() {
 
       <div className="relative z-10 w-full max-w-md">
         {/* Back Link */}
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="inline-flex items-center gap-2 text-xs text-foreground/40 hover:text-white transition-colors mb-8 cursor-none"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
@@ -135,9 +135,9 @@ export default function SignupPage() {
             )}
 
             <div className="pt-2">
-              <MagneticButton 
-                type="submit" 
-                glowColor="cyan" 
+              <MagneticButton
+                type="submit"
+                glowColor="cyan"
                 className="w-full py-4 text-sm font-semibold rounded-xl"
                 disabled={loading}
               >
